@@ -1,3 +1,5 @@
+//! run `ls -l /dev/tty.*` to find tty
+
 use bytes::BytesMut;
 use futures::stream::StreamExt;
 use std::{env, io, str};
